@@ -1,0 +1,39 @@
+{
+  "name": "backend_meal",
+  "version": "1.0.0",
+  "description": "A subscription based meal delivery app for students and working professional.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devajay07/backend-Meal.git"
+  },
+  "keywords": [
+    "meal",
+    "food",
+    "subscrioption"
+  ],
+  "author": "Ajay Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devajay07/backend-Meal/issues"
+  },
+  "homepage": "https://github.com/devajay07/backend-Meal#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "bootstrap": "^5.2.1",
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.6.0",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.1",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "validator": "^13.7.0"
+  }
+}
